@@ -1,0 +1,193 @@
+@-webkit-keyframes longline{
+
+  from {opacity: 0%;
+     }
+  to {opacity: 100%;
+    }
+}
+
+
+@-webkit-keyframes lightdark{
+
+  0% {transform: scale(1,1);}
+  
+  50% {transform: scale(1.1,1.1);}
+
+  100% {transform: scale(1,1);}
+}
+
+
+
+.bg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.title  {
+    position: absolute;
+    top: 5%;
+    left: 11%;
+    width: 16%;
+}
+
+.light {
+    position: absolute;
+    top: 6%;
+    left: 47%;
+    width: 6%;
+    animation-name: lightdark;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;}
+
+.dark {
+    position: absolute;
+    top: 50%;
+    left: 64%;
+    width: 6%;
+    animation-name: lightdark;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;}
+
+.l1 {
+	position: absolute;
+    width: 35.2%;
+    top: 34.3%;
+    left: 10%;
+    opacity: 0%;
+    animation-name: longline;
+    animation-delay: 2s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.l2 {
+    position: absolute;
+    width: 72%;
+    top: 76.1%;
+    left: 10.8%;
+    opacity: 0%;
+    animation-name: longline;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.c1 {
+    position: absolute;
+    width: 91%;
+    top: 3%;
+    left: 4.8%;
+    display: none;
+}
+
+.c2 {
+    position: absolute;
+    width: 91%;
+    top: 3%;
+    left: 4.8%;
+    display: none;
+}
+
+.p1 {
+    position: absolute;
+    width: 53.3%;
+    top: -1%;
+    left: -3%;
+}
+
+.l11 {
+    position: absolute;
+    width: 4%;
+    top: 52.9%;
+    left: 10.9%;
+    opacity: 0%;
+    animation-name: longline;
+    animation-delay: 2s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.l12 {
+    position: absolute;
+    width: 4.2%;
+    top: 44.5%;
+    left: 21.2%;
+    opacity: 0%;
+    animation-name: longline;
+    animation-delay: 2.3s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+.l13 {
+    position: absolute;
+    width: 4.2%;
+    top: 40.3%;
+    left: 28.4%;
+    opacity: 0%;
+    animation-name: longline;
+    animation-delay: 2.6s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.l14 {
+    position: absolute;
+    width: 4.2%;
+    top: 37.1%;
+    left: 33.2%;
+    opacity: 0%;
+    animation-name: longline;
+    animation-delay: 2.9s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.l15 {
+    position: absolute;
+    width: 4.2%;
+    top: 34.7%;
+    left: 36.8%;
+    opacity: 0%;
+    animation-name: longline;
+    animation-delay: 3.2s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.l16 {
+    position: absolute;
+    width: 4.2%;
+    top: 32.5%;
+    left: 39.8%;
+    opacity: 0%;
+    animation-name: longline;
+    animation-delay: 3.5s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.l17 {
+    position: absolute;
+    width: 4.2%;
+    top: 31%;
+    left: 41.6%;
+    opacity: 0%;
+    animation-name: longline;
+    animation-delay: 3.6s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
